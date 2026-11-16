@@ -1,0 +1,78 @@
+/* Variabel Warna Utama & Warna Cream */
+:root {
+  --maroon: #8B1515;
+  --dark-maroon: #530909;
+  --gold: #D4AF37;
+  --cream: #FAF5EB; /* Warna krem hangat latar belakang */
+}
+
+/* Pengaturan Font */
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #333333;
+}
+
+.font-serif {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Kelas Warna Kustom */
+.bg-maroon {
+  background-color: var(--maroon) !important;
+}
+
+.text-maroon {
+  color: var(--maroon) !important;
+}
+
+.bg-gold {
+  background-color: var(--gold) !important;
+}
+
+.text-gold {
+  color: var(--gold) !important;
+}
+
+.bg-cream {
+  background-color: var(--cream) !important;
+}
+
+/* Tombol */
+.btn-gold {
+  background-color: var(--gold);
+  border: none;
+}
+
+.btn-gold:hover {
+  background-color: #b8972a;
+}
+
+.btn-maroon {
+  background-color: var(--maroon);
+  border: none;
+}
+
+.btn-maroon:hover {
+  background-color: #6a1010;
+}
+
+/* Banner Utama (Hero) */
+.hero-section {
+  min-height: 80vh;
+  background: linear-gradient(rgba(139, 21, 21, 0.85), rgba(83, 9, 9, 0.9)),
+              url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80') center/cover no-repeat;
+}
+
+/* Kartu Menu */
+.menu-card {
+  transition: transform 0.3s ease;
+}
+
+.menu-card:hover {
+  transform: translateY(-5px);
+}
+
+.menu-card img {
+  height: 180px;
+  object-fit: cover;
+}
